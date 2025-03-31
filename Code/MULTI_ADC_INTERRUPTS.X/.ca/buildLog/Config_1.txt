@@ -1,0 +1,64 @@
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+rm -f  -r .ca/build/Config_1/production
+rm -f  -r .ca/dist/Config_1/production
+make[1]: Leaving directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+[32mCLEAN SUCCESSFUL (total time: 153ms)[0m
+make -f nbproject/Makefile-Config_1.mk SUBPROJECTS= .build-conf
+make  -f nbproject/Makefile-Config_1.mk .ca/dist/Config_1/production/MULTI_ADC_INTERRUPTS.X.production.hex
+make[2]: Entering directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+"C:\Program Files\Microchip\xc8\v2.50\bin\xc8-cc.exe"  -mcpu=16F877A -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_1=Config_1  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o .ca/build/Config_1/production/newmain.p1 newmain.c 
+::: advisory: (2100) using the C99 standard library with the selected device may result in larger code and data usage
+newmain.c:108:9: warning: implicit conversion loses integer precision: 'int' to '__bit' [-Wconversion]
+    RD0=RS;
+       ~^~
+newmain.c:109:11: warning: implicit conversion loses integer precision: 'int' to 'unsigned char' [-Wconversion]
+    PORTC=DC;
+         ~^~
+newmain.c:122:19: warning: character constant too long for its type
+        sprintf(c,'%04d',count);
+                  ^
+newmain.c:122:19: warning: incompatible integer to pointer conversion passing 'unsigned int' to parameter of type 'const char *' [-Wint-conversion]
+        sprintf(c,'%04d',count);
+                  ^~~~~~
+C:\Program Files\Microchip\xc8\v2.50\pic\include\c99\stdio.h:121:53: note: passing argument to parameter here
+int sprintf(char *__restrict, const char *__restrict, ...);
+                                                    ^
+4 warnings generated.
+make[2]: Leaving directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+make[2]: Entering directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+"C:\Program Files\Microchip\xc8\v2.50\bin\xc8-cc.exe"  -mcpu=16F877A -Wl,-Map=.ca/dist/Config_1/production/MULTI_ADC_INTERRUPTS.X.production.map  -DXPRJ_Config_1=Config_1  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8"  -fno-short-double -fno-short-float -O1 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto      -Wl,--memorysummary,.ca/dist/Config_1/production/memoryfile.xml -o .ca/dist/Config_1/production/MULTI_ADC_INTERRUPTS.X.production.elf  .ca/build/Config_1/production/newmain.p1     
+::: advisory: (2100) using the C99 standard library with the selected device may result in larger code and data usage
+newmain.c:106:: advisory: (1510) non-reentrant function "_display" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul16.c:15:: advisory: (1510) non-reentrant function "___wmul" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awdiv.c:5:: advisory: (1510) non-reentrant function "___awdiv" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\awmod.c:5:: advisory: (1510) non-reentrant function "___awmod" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwdiv.c:5:: advisory: (1510) non-reentrant function "___lwdiv" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\lwmod.c:5:: advisory: (1510) non-reentrant function "___lwmod" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_sprintf.c:9:: advisory: (1510) non-reentrant function "_sprintf" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:193:: advisory: (1510) non-reentrant function "_pad" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:476:: advisory: (1510) non-reentrant function "_ctoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:513:: advisory: (1510) non-reentrant function "_dtoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:872:: advisory: (1510) non-reentrant function "_otoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:1001:: advisory: (1510) non-reentrant function "_utoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:1052:: advisory: (1510) non-reentrant function "_xtoa" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:1158:: advisory: (1510) non-reentrant function "_read_prec_or_width" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:1177:: advisory: (1510) non-reentrant function "_vfpfcnvrt" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\doprnt.c:1817:: advisory: (1510) non-reentrant function "_vfprintf" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\abs.c:1:: advisory: (1510) non-reentrant function "_abs" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputc.c:8:: advisory: (1510) non-reentrant function "_fputc" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\nf_fputs.c:8:: advisory: (1510) non-reentrant function "_fputs" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\putch.c:7:: advisory: (1510) non-reentrant function "_putch" appears in multiple call graphs and has been duplicated by the compiler
+C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\strlen.c:5:: advisory: (1510) non-reentrant function "_strlen" appears in multiple call graphs and has been duplicated by the compiler
+newmain.c:100:: warning: (520) function "_display_string" is never called
+newmain.c:33:: warning: (1393) possible hardware stack overflow detected; estimated stack depth: 17
+
+16F877A Memory Summary:
+    Program space        used  191Fh (  6431) of  2000h words   ( 78.5%)
+    Data space           used   115h (   277) of   170h bytes   ( 75.3%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    Configuration bits   used     1h (     1) of     1h word    (100.0%)
+    ID Location space    used     0h (     0) of     4h bytes   (  0.0%)
+
+make[2]: Leaving directory 'D:/PIC/Code/MULTI_ADC_INTERRUPTS.X'
+[32mBUILD SUCCESSFUL (total time: 2s)[0m
