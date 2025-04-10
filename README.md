@@ -71,7 +71,7 @@ This project simulates an automatic **wire cutting machine**. It allows the user
 
 ### 📸 Design Snapshot
 
-![Wire Cutter Design](./Screenshot%202025-04-10%20105241.png))
+![Wire Cutter Design](./wire_cutter_project.png))
 
 ---
 
