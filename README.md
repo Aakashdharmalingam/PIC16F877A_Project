@@ -72,7 +72,7 @@ This project simulates an automatic **wire cutting machine**. It allows the user
 ### 📸 Design Snapshot
 
 ![Wire Cutter Design](./wire_cutter_project.png))
-
+![UART_DOOR_LOCK_CODE Design](./UART_DOOR_LOCK_CODE.png))
 ---
 
 ## 🤖 Line Follower Robot
