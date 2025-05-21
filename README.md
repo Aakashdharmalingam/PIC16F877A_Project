@@ -73,7 +73,7 @@ This project simulates an automatic **wire cutting machine**. It allows the user
 
 ![Wire Cutter Design](./wire_cutter_project.png)
 ![UART_DOOR_LOCK_CODE Design](./UART_DOOR_LOCK_CODE.png)
-![ADC CONVERSION Design](./ADC_CONVERSION.png)
+![ADC CONVERSION Design](./ADC CONVERSION.png)
 ![ADC_TEMP Design](./ADC_TEMP.png)
 ![BARGRAPH Design](./BARGRAPH.png)
 ![BLINK Design](./BLINK.png)
