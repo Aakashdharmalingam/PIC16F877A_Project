@@ -73,17 +73,17 @@ This project simulates an automatic **wire cutting machine**. It allows the user
 
 ![Wire Cutter Design](./wire_cutter_project.png)
 ![UART_DOOR_LOCK_CODE Design](./UART_DOOR_LOCK_CODE.png)
-![Topic Design](./ADC CONVERSION.png
-ADC_TEMP.png
-BARGRAPH.png
-BLINK.png
-Buttons.png
-I2C.png
-INTERNAL_EEPROM.png
-INTERRUPTS_DISPLAY.png
-KEYBOARDS.png
-LCD_DISPLAY.png
-LCD_DISPLAY_BUTTON_CONTROL.png)
+![ADC CONVERSION Design](./ADC_CONVERSION.png)
+![ADC_TEMP Design](./ADC_TEMP.png)
+![BARGRAPH Design](./BARGRAPH.png)
+![BLINK Design](./BLINK.png)
+![Buttons Design](./Buttons.png)
+![I2C Design](./I2C.png)
+![INTERNAL_EEPROM Design](./INTERNAL_EEPROM.png)
+![INTERRUPTS_DISPLAY Design](./INTERRUPTS_DISPLAY.png)
+![KEYBOARDS Design](./KEYBOARDS.png)
+![LCD_DISPLAY Design](./LCD_DISPLAY.png)
+![LCD_DISPLAY_BUTTON_CONTROL Design](./LCD_DISPLAY_BUTTON_CONTROL.png)
 ---
 
 ## 🤖 Line Follower Robot
