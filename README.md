@@ -70,19 +70,40 @@ This project simulates an automatic **wire cutting machine**. It allows the user
 - Dual motor simulation (feed + cutter)
 
 ### 📸 Design Snapshot
-
+### Wire Cutter Design
 ![Wire Cutter Design](./wire_cutter_project.png)
+### UART_DOOR_LOCK_CODE Design
 ![UART_DOOR_LOCK_CODE Design](./UART_DOOR_LOCK_CODE.png)
+### ADC_TEMP Design
 ![ADC_TEMP Design](./ADC_TEMP.png)
+### BARGRAPH Design
 ![BARGRAPH Design](./BARGRAPH.png)
+### BLINK Design
 ![BLINK Design](./BLINK.png)
+### Buttons Design
 ![Buttons Design](./Buttons.png)
+### I2C Design
 ![I2C Design](./I2C.png)
+### INTERNAL_EEPROM Design
 ![INTERNAL_EEPROM Design](./INTERNAL_EEPROM.png)
+### INTERRUPTS_DISPLAY Design
 ![INTERRUPTS_DISPLAY Design](./INTERRUPTS_DISPLAY.png)
+### KEYBOARDS Design
 ![KEYBOARDS Design](./KEYBOARDS.png)
+### LCD_DISPLAY Design
 ![LCD_DISPLAY Design](./LCD_DISPLAY.png)
+### LCD_DISPLAY_BUTTON_CONTROL Design
 ![LCD_DISPLAY_BUTTON_CONTROL Design](./LCD_DISPLAY_BUTTON_CONTROL.png)
+### SPI Design
+![SPI Design](./SPI.png)
+### STEPPER_MOTOR
+![STEPPER_MOTOR Design](./STEPPER_MOTOR.png) 
+### TIMER_ISR
+![TIMER_ISR Design](./TIMER_ISR.png)
+### UART_PROTOCAL
+![UART_PROTOCAL Design](./UART_PROTOCAL.png)
+### WIRE_CUTTER_SAMPLE
+![WIRE_CUTTER Design](./WIRE_CUTTER.png)
 ---
 
 ## 🤖 Line Follower Robot
